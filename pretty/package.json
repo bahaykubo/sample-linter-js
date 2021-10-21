@@ -1,0 +1,13 @@
+{
+  "name": "pretty",
+  "version": "1.0.0",
+  "main": "sample.js",
+  "scripts": {
+    "lint": "prettier --check *.js",
+    "lint-fix": "prettier --write *.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}

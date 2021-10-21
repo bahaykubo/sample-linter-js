@@ -1,0 +1,13 @@
+{
+  "name": "eslint-editorconfig",
+  "version": "1.0.0",
+  "main": "sample.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "eslint": "^8.0.1"
+  }
+}

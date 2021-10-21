@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "quotes": [ "error", "single" ],
+    "semi": [ "error", "always" ],
+    "no-trailing-spaces": [ "error" ],
+    "no-unused-vars": [ "warn" ],
+    "prefer-const": [ "error" ]
+  }
+}

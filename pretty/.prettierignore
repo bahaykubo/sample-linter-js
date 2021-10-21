@@ -1,0 +1,7 @@
+# Ignore artifacts:
+node_modules
+
+# Ignore config because files aren't valid JSON
+configuration
+
+.vscode
