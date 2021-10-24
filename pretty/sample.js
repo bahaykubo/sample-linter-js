@@ -15,6 +15,8 @@ newList.forEach(item => console.log(item));
 // + eslint - should enforce no unused variables
 // + eslint - should check and highlight duplicate parameters
 const getPersonDetails = function(firstName, lastName, age, firstName) {
-
   console.log(`name: ${firstName}`);
 };
+
+// + eslint - should enforce use of let or const
+var shouldUse = false;
